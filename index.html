@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
    <h1>Welcome to Fisika.js</h1> 
-   <form action="">
+   <div>
+ <form id="physics-form">
     <label for="input">Mass</label>
    <input id="input" type="text">
    <label for="inputN">Newtons</label>
    <input id="inputN" type="text">
-   <button onclick="uI()">klik</button>
+    <button id="confirm" type="submit">klik</button>
     </form>
-   <script src="main.js"></script>
+   </div>
+   
+   <script src="./input.js" type="module"></script>
 </body>
 </html>
