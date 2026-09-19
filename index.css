@@ -1,21 +1,69 @@
-form{
+.chalk{
     display: flex;
     flex-direction: column;
     gap: 4px;
     width: 100%;
+    gap: 16px;
     box-sizing: border-box;
     padding: 4px;
-    color: #F5F3E7;
+    color: #F2D65B;
     font-weight: bold;
     margin: 0;
 }
-label {
-margin-bottom: 8px;
+.chalk label {
+ margin-bottom: 2px;
+ font-size:18px;
+ font-family: "Caveat", cursive;
+
 }
-div{
-    justify-content: center;
+.chalk input{
+ border: none;
+ height: 23px;
+padding: 4px;
+ border-radius: 4px;
+ font-size: 18pxpx;
+ color: #F5F3E7;
+ font-family: cursive;
+
+ background-color:#18241c ;
+ box-shadow: inset 0 5px 10px #101812;
+    
+}
+.board{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     background: #16281D;
-    width: 200px;
-    height: 200px;
-    padding: 8px;
+    width: 280px;
+    min-height: 320;
+    padding: 24px 20px;
+    border-radius: 6px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.text-contain{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 6px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #F5F3E7;
+}
+.chalk button {
+        background-color: #F2D65B;
+        border: none;
+        min-height: 24px;
+        font-size: 12px;
+         box-shadow: 0 4px 10px #0B1811;
+         border-radius: 4px;
+         font-weight: bold;
+         transform: translateY(1px);
+}
+.chalk button:active{
+    transform: translateY(2px);
+     box-shadow: 0 0s 10px #0B1811;
 }

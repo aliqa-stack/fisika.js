@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
    <h1>Welcome to Fisika.js</h1> 
-   <div>
- <form id="physics-form">
-    <label for="input">Mass</label>
-   <input id="input" type="text">
+   <div class="container">
+   <div class="board">
+   <form class="chalk" id="physics-form">
+      <div class="text-contain">
+         <h2>newton 2</h2>
+      </div>
+   <label for="input">Mass</label>
+   <input id="input" placeholder="0" type="text">
    <label for="inputN">Newtons</label>
-   <input id="inputN" type="text">
-    <button id="confirm" type="submit">klik</button>
-    </form>
+   <input id="inputN" placeholder="0" type="text">
+    <button id="confirm" type="submit">KALKULASI</button>
+   </form>
    </div>
-   
+ 
+   </div>
+  
    <script src="./input.js" type="module"></script>
 </body>
 </html>
